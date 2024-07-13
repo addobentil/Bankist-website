@@ -1,0 +1,14 @@
+{
+"name": "Bankist",
+"version": "1.0.0",
+"description": "A Bankist application",
+"default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
